@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>PDF Document Summarizer</h1>
+
+    <h2>Upload Document</h2>
+    <input type="file" id="uploadFile">
+    <button onclick="uploadDocument()">Upload</button>
+    <div id="spinner"></div> <!-- Spinner element -->
+
+    <h2>Chat with LLM</h2>
+    <div id="chatbox"></div>
+    <input type="text" id="inputMessage">
+    <button onclick="sendMessage()">Send</button>
+    <div id="chat-spinner"></div> <!-- Chat spinner element -->
+
+    <script src="script.js"></script>
+</body>
+</html>
